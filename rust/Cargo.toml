@@ -1,14 +1,15 @@
 [package]
 name = "fwmc_game"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
 crate-type = ["cdylib"]
 
 [dependencies]
+godot = "0.2.3"
 steamworks = "0.11.x"
 
-[dependencies.godot]
-git = "https://github.com/godot-rust/gdext"
-branch = "master"
+# [dependencies.godot]
+# git = "https://github.com/godot-rust/gdext"
+# branch = "master"
