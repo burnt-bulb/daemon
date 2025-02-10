@@ -1,0 +1,25 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://c5cc0k4f3cwtu"]
+
+[ext_resource type="FontFile" uid="uid://b2b2vhsf16y83" path="res://assets/kenney/kenney_kenney-fonts/Fonts/Kenney Pixel.ttf" id="1_ai54c"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ryiau"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_abqs2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tnxxm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7jf7i"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bof1g"]
+
+[resource]
+default_font = ExtResource("1_ai54c")
+default_font_size = 40
+Button/colors/font_focus_color = Color(0.95, 0.775833, 0, 1)
+Button/colors/font_hover_color = Color(0.95, 0.883817, 0.589, 1)
+Button/colors/font_pressed_color = Color(0.56, 0.500453, 0.2352, 1)
+Button/styles/disabled = SubResource("StyleBoxEmpty_ryiau")
+Button/styles/focus = SubResource("StyleBoxEmpty_abqs2")
+Button/styles/hover = SubResource("StyleBoxEmpty_tnxxm")
+Button/styles/normal = SubResource("StyleBoxEmpty_7jf7i")
+Button/styles/pressed = SubResource("StyleBoxEmpty_bof1g")

@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://c4pnp3yh6wh2g"]
+
+[ext_resource type="PackedScene" uid="uid://bfyt50nwerwmt" path="res://scenes/old/characters/fuwawa.tscn" id="1_cs5es"]
+[ext_resource type="PackedScene" uid="uid://bn7oe5lw324qv" path="res://scenes/old/characters/mococo.tscn" id="2_62713"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_iknvd"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_8ukti"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_77d33"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_l8trq"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Fuwawa" parent="." instance=ExtResource("1_cs5es")]
+
+[node name="Companion" type="Node2D" parent="Fuwawa"]
+
+[node name="Mococo" parent="Fuwawa/Companion" instance=ExtResource("2_62713")]
+position = Vector2(17, 0)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+
+[node name="World Boundary" type="StaticBody2D" parent="."]
+
+[node name="Bottom" type="CollisionShape2D" parent="World Boundary"]
+position = Vector2(0, 162)
+shape = SubResource("WorldBoundaryShape2D_iknvd")
+
+[node name="Right" type="CollisionShape2D" parent="World Boundary"]
+position = Vector2(288, 0)
+rotation = -1.57079
+shape = SubResource("WorldBoundaryShape2D_8ukti")
+
+[node name="Left" type="CollisionShape2D" parent="World Boundary"]
+position = Vector2(-288, 0)
+rotation = 1.57079
+shape = SubResource("WorldBoundaryShape2D_77d33")
+
+[node name="Top" type="CollisionShape2D" parent="World Boundary"]
+position = Vector2(0, -162)
+rotation = 3.14159
+shape = SubResource("WorldBoundaryShape2D_l8trq")
