@@ -1,5 +1,3 @@
-# <div align="center">`daemon`</div>
+# <div align="center">daemon | `v0.1.0-dev`</div>
 
 Unreleased game prototype
-
-v0.1.0-dev
