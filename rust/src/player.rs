@@ -1,14 +1,12 @@
 pub mod facing;
 pub mod input;
 
-use std::collections::HashMap;
-
 use godot::{
   classes::{CharacterBody2D, ICharacterBody2D},
   prelude::*,
 };
 
-use self::facing::PlayerFacingDirection;
+use self::{facing::PlayerFacingDirection, input::InputAction};
 
 #[derive(GodotClass)]
 #[class(base=CharacterBody2D)]
@@ -36,7 +34,8 @@ impl ICharacterBody2D for Player {
   fn physics_process(&mut self, _delta: f64) {
     let input = Input::singleton();
 
-    let dir = input.get_vector("Move Left", "Move Right", "Move Up", "Move Down");
+    let dir =
+      input.get_vector(InputAction::MoveLeft, InputAction::MoveRight, InputAction::MoveUp, InputAction::MoveDown);
 
     if !dir.is_zero_approx() {
       self.facing = PlayerFacingDirection::from_angle(dir.angle_to(self.base().get_up_direction()));
