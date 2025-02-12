@@ -10,6 +10,10 @@ crate-type = ["cdylib"]
 godot = "0.2.3"
 steamworks = "0.11.x"
 
+[dependencies.fwmc_derive]
+version = "0.1.x"
+path = "../fwmc_derive"
+
 # [dependencies.godot]
 # git = "https://github.com/godot-rust/gdext"
 # branch = "master"

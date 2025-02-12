@@ -1,4 +1,4 @@
 [workspace]
-members = ["rust"]
-default-members = ["rust"]
+members = ["crates/*"]
+default-members = ["crates/fwmc_game"]
 resolver = "3"
