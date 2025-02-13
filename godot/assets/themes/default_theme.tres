@@ -1,6 +1,6 @@
 [gd_resource type="Theme" load_steps=7 format=3 uid="uid://c5cc0k4f3cwtu"]
 
-[ext_resource type="FontFile" uid="uid://b2b2vhsf16y83" path="res://assets/kenney/kenney_kenney-fonts/Fonts/Kenney Pixel.ttf" id="1_ai54c"]
+[ext_resource type="FontFile" uid="uid://b2b2vhsf16y83" path="res://assets/fonts/kenney_kenney-fonts/Fonts/Kenney Pixel.ttf" id="1_ai54c"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ryiau"]
 
