@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfsfbuaflupbw"
-path="res://.godot/imported/chibi_fuwawa-export.png-a770d7459e0b20abe4c66239fa305048.ctex"
+path="res://.godot/imported/chibi_fuwawa-export.png-10e95ac86990135e4d7a637fd990b1a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/chibi_fuwawa-export.png"
-dest_files=["res://.godot/imported/chibi_fuwawa-export.png-a770d7459e0b20abe4c66239fa305048.ctex"]
+source_file="res://assets/sprites/characters/old/chibi_fuwawa-export.png"
+dest_files=["res://.godot/imported/chibi_fuwawa-export.png-10e95ac86990135e4d7a637fd990b1a0.ctex"]
 
 [params]
 

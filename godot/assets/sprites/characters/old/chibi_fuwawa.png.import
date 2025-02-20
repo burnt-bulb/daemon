@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://qxwg4ik88cc8"
-path="res://.godot/imported/baubau.png-4d0bbcdb6b224335a208b23a8189956a.ctex"
+uid="uid://bfi3bgwnilidc"
+path="res://.godot/imported/chibi_fuwawa.png-5869340f8dd92dc515d1f7282519728c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/baubau.png"
-dest_files=["res://.godot/imported/baubau.png-4d0bbcdb6b224335a208b23a8189956a.ctex"]
+source_file="res://assets/sprites/characters/old/chibi_fuwawa.png"
+dest_files=["res://.godot/imported/chibi_fuwawa.png-5869340f8dd92dc515d1f7282519728c.ctex"]
 
 [params]
 

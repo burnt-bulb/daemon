@@ -2,7 +2,7 @@ pub mod facing;
 pub mod input;
 
 use godot::{
-  classes::{CharacterBody2D, ICharacterBody2D},
+  classes::{CharacterBody2D, ICharacterBody2D, Sprite2D},
   prelude::*,
 };
 
@@ -16,7 +16,7 @@ struct Player {
   #[export]
   facing: PlayerFacingDirection,
   #[export]
-  model: Option<Gd<Node2D>>,
+  model: Option<Gd<Sprite2D>>,
   base: Base<CharacterBody2D>,
 }
 

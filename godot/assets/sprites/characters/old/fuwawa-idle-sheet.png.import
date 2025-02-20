@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://21la6ksw1bw7"
-path="res://.godot/imported/proto-idle-sheet.png-25859d0c758033089cc6d8e113aa2f0d.ctex"
+uid="uid://b3rr6iu1ibns0"
+path="res://.godot/imported/fuwawa-idle-sheet.png-30fe46a69abeb2c7fcb8539025f6815d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/proto-idle-sheet.png"
-dest_files=["res://.godot/imported/proto-idle-sheet.png-25859d0c758033089cc6d8e113aa2f0d.ctex"]
+source_file="res://assets/sprites/characters/old/fuwawa-idle-sheet.png"
+dest_files=["res://.godot/imported/fuwawa-idle-sheet.png-30fe46a69abeb2c7fcb8539025f6815d.ctex"]
 
 [params]
 

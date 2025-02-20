@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bfi3bgwnilidc"
-path="res://.godot/imported/chibi_fuwawa.png-c1fd71d9fc7970c91a4ad895cae4646f.ctex"
+uid="uid://21la6ksw1bw7"
+path="res://.godot/imported/proto-idle-sheet.png-29d31eed1ba9e944360c95dae204acab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/chibi_fuwawa.png"
-dest_files=["res://.godot/imported/chibi_fuwawa.png-c1fd71d9fc7970c91a4ad895cae4646f.ctex"]
+source_file="res://assets/sprites/characters/old/proto-idle-sheet.png"
+dest_files=["res://.godot/imported/proto-idle-sheet.png-29d31eed1ba9e944360c95dae204acab.ctex"]
 
 [params]
 
